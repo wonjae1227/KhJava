@@ -32,5 +32,10 @@ public class Parent {
 	public void printParent() {
 		System.out.println("唱 何葛具 ");
 	}
+	
+	public void print() {
+		System.out.println("唱 何葛具!!!!");
+	}
+	
 
 }
