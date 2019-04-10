@@ -7,7 +7,8 @@ public class NoteBook extends Electronic {
 	public NoteBook() {
 	}
 
-	public NoteBook(String cpu, int usbPort) {
+	public NoteBook(String brand, String name, int price, String cpu, int usbPort) {
+		super(brand, name, price);
 		this.cpu = cpu;
 		this.usbPort = usbPort;
 	}

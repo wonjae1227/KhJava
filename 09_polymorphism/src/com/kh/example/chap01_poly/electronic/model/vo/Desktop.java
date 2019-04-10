@@ -7,7 +7,8 @@ public class Desktop extends Electronic {
 	public Desktop() {
 	}
 
-	public Desktop(String cpu, String graphic) {
+	public Desktop(String brand, String name, int price, String cpu, String graphic) {
+		super(brand, name, price);
 		this.cpu = cpu;
 		this.graphic = graphic;
 	}
