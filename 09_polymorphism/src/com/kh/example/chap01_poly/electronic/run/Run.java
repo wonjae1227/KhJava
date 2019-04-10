@@ -18,11 +18,10 @@ public class Run {
 //		System.out.println(ec.selectDesktop());
 //		System.out.println(ec.selectNoteBook());
 //		System.out.println(ec.selectTablet());
-		
+
 		Electronic[] elec = ec.select();
-		for(int i = 0; i < elec.length ; i++) {
-			System.out.println(elec[i]); //동적 바인딩
+		for (int i = 0; i < elec.length; i++) {
+			System.out.println(elec[i]); // 동적 바인딩
 		}
 	}
-
 }
