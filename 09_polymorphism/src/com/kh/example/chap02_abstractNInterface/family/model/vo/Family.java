@@ -1,4 +1,4 @@
-package com.kh.example.chap02_abstractNInterface.famil.model.vo;
+package com.kh.example.chap02_abstractNInterface.family.model.vo;
 
 public abstract class Family {
 	private String name;
@@ -41,10 +41,10 @@ public abstract class Family {
 	public String toString() {
 		return "name=" + name + ", weight=" + weight + ", health=" + health;
 	}
-	public abstract void eat();{
-		
-	}
-	public abstract void sleep();
+//	public abstract void eat();{
+//		
+//	}
+//	public abstract void sleep();
 	
 	public void overrideTest() {
 		System.out.println("Family");

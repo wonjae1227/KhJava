@@ -1,4 +1,4 @@
-package com.kh.example.chap02_abstractNInterface.famil.model.vo;
+package com.kh.example.chap02_abstractNInterface.family.model.vo;
 
 public class Baby extends Family {
 
