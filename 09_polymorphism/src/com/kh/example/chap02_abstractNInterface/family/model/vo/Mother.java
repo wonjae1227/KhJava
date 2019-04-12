@@ -1,6 +1,6 @@
 package com.kh.example.chap02_abstractNInterface.family.model.vo;
 
-public class Mother extends Family {
+public class Mother extends Family  implements Basic {
 	private String babyBirth; // 아이의 탄생: 출산, 입양, 없음
 
 	public Mother() {

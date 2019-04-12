@@ -1,6 +1,6 @@
 package com.kh.example.chap02_abstractNInterface.family.model.vo;
 
-public class Baby extends Family {
+public class Baby extends Family implements Basic {
 
 	public Baby() {
 	}
