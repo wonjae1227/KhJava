@@ -1,4 +1,4 @@
-package com.kh.example.chap02_abstractNInterface.famil.model.vo;
+package com.kh.example.chap02_abstractNInterface.family.model.vo;
 
 public class Mother extends Family {
 	private String babyBirth; // 아이의 탄생: 출산, 입양, 없음
